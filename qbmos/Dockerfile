@@ -1,0 +1,2 @@
+ARG BUILD_FROM=wk275/qbmos:latest
+FROM $BUILD_FROM
