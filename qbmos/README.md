@@ -1,4 +1,4 @@
-#qbmos is a customized mosquitto server. 
+# qbmos is a customized mosquitto server. 
 
 Instead of defining a user and password via the standard mosquitto tools, you can directly define them via the docker-compose.yaml environment variables MQTT_USER and MQTT_PASSWORD.
 
