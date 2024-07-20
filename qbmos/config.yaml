@@ -1,0 +1,16 @@
+name: "qbmos"
+version: "latest"
+slug: folder
+description: >-
+  "qbtools mosquitto server"
+arch:
+  - amd64
+  - arm64
+  - arm/V7
+url: "https://github.com/wk275/qbtools-v3_HA-addons/"
+ports:
+  1883/tcp: 1883
+map:
+  - type: data
+    read_only: False
+image: wk275/qbmos
