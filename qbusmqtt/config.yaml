@@ -10,16 +10,10 @@ arch:
   - amd64
   - armhf
   - armv7
-  - arm64
   
-options:
-  MQTT_HOST: 0.0.0.0
-  MQTT_PORT: 51883
-
 schema:
   MQTT_HOST: str?
   MQTT_PORT: port?
   MQTT_USER: str?
   MQTT_PASSWORD: str?
   
-legacy: true
