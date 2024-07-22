@@ -1,6 +1,6 @@
 name: "qbmos"
 version: "latest"
-slug: folder
+slug: qbmos
 description: >-
   "qbtools mosquitto server"
 arch:
