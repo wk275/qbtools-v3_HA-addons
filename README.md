@@ -12,7 +12,7 @@
 ![](https://img.shields.io/badge/prerequisites-HA--OS-red)
 ![](https://img.shields.io/badge/-HA--Supervised-red)
 
-- !["qbmos"](https://github.com/wk275/qbtools-v3_HA-addons/tree/main/qbmos)
+- [!qbmos](https://github.com/wk275/qbtools-v3_HA-addons/tree/main/qbmos)
 - ![](https://github.com/wk275/qbtools-v3_HA-addons/tree/main/qbusmqtt)
 - ![](https://github.com/wk275/qbtools-v3_HA-addons/tree/main/qbtools)
 
