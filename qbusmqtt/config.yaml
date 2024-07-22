@@ -1,6 +1,6 @@
-name: Qbus MQTT Gateway
+name: Qbtools qbusmqtt Qbus MQTT gateway
 url: "https://github.com/wk275/qbtools-v3_HA-addons/tree/main/qbusmqtt"
-description: Interface between QBus controller and MQTT server
+description: qbusmqtt links a Qbus controller with a mqtt server
 version: 3.1.1.2
 image: wk275/qbusmqtt
 slug: qbusmqtt
