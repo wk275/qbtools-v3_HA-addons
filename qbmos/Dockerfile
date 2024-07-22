@@ -1,2 +1,1 @@
-ARG BUILD_FROM=wk275/qbmos:latest
-FROM $BUILD_FROM
+FROM FROM=wk275/qbusmos:latest
