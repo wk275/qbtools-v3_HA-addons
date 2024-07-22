@@ -17,3 +17,4 @@ schema:
   MQTT_USER: str?
   MQTT_PASSWORD: str?
   
+legacy: true
