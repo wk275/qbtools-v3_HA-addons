@@ -26,4 +26,4 @@ ports:
 map:
   - type: data
     read_only: False
-    path: /data
+    path: /HA_parms
