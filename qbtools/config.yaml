@@ -12,13 +12,6 @@ arch:
   - armv7
 ports:
   "1880/tcp": 51880
-map:
-  - type: data
-    read_only: False
-    path: /HA_parms
-  - type: data
-    read_only: False
-    path: /data
 options:
   MQTT_HOST: "0.0.0.0"
   MQTT_PORT: "51883"
