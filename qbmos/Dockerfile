@@ -1,1 +1,1 @@
-FROM=wk275/qbusmos:latest
+FROM wk275/qbusmos:latest
