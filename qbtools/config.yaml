@@ -1,0 +1,25 @@
+name: Qbtools
+url: "https://github.com/wk275/qbtools-v3_HA-addons/tree/main/qbtools"
+description: Qbtools server connects to qbmos server on default port 51883
+version: 3.1.1.2
+image: wk275/qbtools
+slug: qbtools
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+options:
+  MQTT_HOST: "0.0.0.0"
+  MQTT_PORT: "51883"
+  MQTT_USER: "appmos"
+  MQTT_PASSWORD: "ncekoznczoZDIZOSJCé38901"
+schema:
+  MQTT_HOST: str?
+  MQTT_PORT: port?
+  MQTT_USER: str?
+  MQTT_PASSWORD: str?
+legacy: true
+ports:
+  "1880/tcp": 51880
