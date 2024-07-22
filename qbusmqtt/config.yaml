@@ -1,5 +1,5 @@
 name: Qbus MQTT Gateway
-description: Interface bewteen QBus controller and a MQTT server
+description: Interface bewteen QBus controller and MQTT server
 version: 3.1.1.2
 image: wk275/qbusmqtt
 slug: qbusmqtt
@@ -10,8 +10,6 @@ arch:
   - amd64
   - armhf
   - armv7
-services:
-  - 'mqtt:need'
 schema:
   MQTT_HOST: str?
   MQTT_PORT: port?
