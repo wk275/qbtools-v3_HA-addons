@@ -1,16 +1,17 @@
-name: "qbmos"
-version: "latest"
+name: Qbtools MQTT server
+description: Qbtools mqtt server
+version: 3.0
+image: wk275/qbusmos
 slug: qbmos
-description: >-
-  "qbtools mosquitto server"
+init: false
+host_network: true
 arch:
+  - aarch64
   - amd64
-  - arm64
-  - arm/V7
-url: "https://github.com/wk275/qbtools-v3_HA-addons/"
-ports:
-  1883/tcp: 1883
-map:
-  - type: data
-    read_only: False
-image: wk275/qbmos
+  - armhf
+  - armv7
+schema:
+  MQTT_HOST: str?
+  MQTT_PORT: port?
+  MQTT_USER: str?
+  MQTT_PASSWORD: str?
