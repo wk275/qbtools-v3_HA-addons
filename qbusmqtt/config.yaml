@@ -1,6 +1,6 @@
 name: Qbus MQTT Gateway
 description: Interface bewteen QBus controller and MQTT server
-version: 3.1.1.2
+version: latest
 image: wk275/qbusmqtt
 slug: qbusmqtt
 init: false
@@ -10,9 +10,15 @@ arch:
   - amd64
   - armhf
   - armv7
+  - 
+options:
+  MQTT_HOST: 0.0.0.0
+  MQTT_PORT: 51883
 
 schema:
   MQTT_HOST: str?
   MQTT_PORT: port?
   MQTT_USER: str?
   MQTT_PASSWORD: str?
+  
+legacy: true
