@@ -10,11 +10,9 @@ arch:
   - amd64
   - armhf
   - armv7
-  
 schema:
   MQTT_HOST: str?
   MQTT_PORT: port?
   MQTT_USER: str?
   MQTT_PASSWORD: str?
-  
 legacy: true
