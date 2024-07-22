@@ -12,7 +12,7 @@ arch:
   - armv7
 options:
   MQTT_HOST: "0.0.0.0"
-  MQT_PORT: 51883
+  MQT_PORT: "51883"
   MQTT_USER: "appmos"
   MQTT_PASSWORD: "ncekoznczoZDIZOSJCé38901"
 schema:
