@@ -1,6 +1,6 @@
-name: Qbtools qbmos MQTT server
+name: Qbtools qbmos
 url: "https://github.com/wk275/qbtools-v3_HA-addons/tree/main/qbmos"
-description: Qbtools v3 Mosquitto server on port 51883
+description: Qbtools qbmos mqtt server starts default on port 51883
 version: 3.0
 image: wk275/qbmos
 slug: qbmos
