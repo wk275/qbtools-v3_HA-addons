@@ -1,0 +1,21 @@
+name: Qbmos MQTT server
+url: "https://github.com/wk275/qbtools-v3_HA-addons/tree/main/qbmos"
+description: Qbtools v3 Mosquitto server
+version: 3.0
+image: wk275/qbmos
+slug: qbmos
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+options:
+  MQTT_USER: "appmos"
+  MQTT_PASSWORD: "ncekoznczoZDIZOSJCé38901"
+schema:
+  MQTT_USER: str?
+  MQTT_PASSWORD: str?
+legacy: true
+ports: 
+  - 1883/tcp: 51883
