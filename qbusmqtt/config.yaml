@@ -10,8 +10,7 @@ arch:
   - amd64
   - armhf
   - armv7
-services:
-  - 'mqtt:need'
+
 schema:
   MQTT_HOST: str?
   MQTT_PORT: port?
