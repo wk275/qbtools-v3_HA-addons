@@ -22,4 +22,8 @@ schema:
   MQTT_PORT: port?
   MQTT_USER: str?
   MQTT_PASSWORD: str?
+map:
+  - type: data
+    read_only: False
+    path: /data
 legacy: true
