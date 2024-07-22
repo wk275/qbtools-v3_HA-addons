@@ -1,7 +1,7 @@
-name: qbmos
+name: Qbtools mqtt server
 description: Qbtools mosquitto mqtt server
 version: 3.0
-image: wk275/qbusmos
+image: wk275/qbmos
 slug: qbmos
 init: false
 host_network: true
