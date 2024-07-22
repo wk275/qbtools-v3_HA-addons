@@ -1,5 +1,5 @@
-name: Qbtools MQTT server
-description: Qbtools mqtt server
+name: qbmos
+description: Qbtools mosquitto mqtt server
 version: 3.0
 image: wk275/qbusmos
 slug: qbmos
