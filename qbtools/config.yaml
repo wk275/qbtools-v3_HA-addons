@@ -23,3 +23,7 @@ schema:
 legacy: true
 ports:
   "1880/tcp": 51880
+map:
+  - type: data
+    read_only: False
+    path: /data
