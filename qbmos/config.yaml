@@ -16,8 +16,6 @@ options:
 schema:
   MQTT_USER: str?
   MQTT_PASSWORD: str?
-services:
-  - qbmos:provide
-legacy: true
 ports:
   "1883/tcp": 51883
+legacy: true

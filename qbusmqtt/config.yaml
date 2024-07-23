@@ -21,7 +21,4 @@ schema:
   MQTT_PORT: port?
   MQTT_USER: str?
   MQTT_PASSWORD: str?
-services:
-  - qbusmqtt:provide
-  - qbmos:want
 legacy: true
