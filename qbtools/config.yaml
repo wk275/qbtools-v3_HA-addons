@@ -13,8 +13,8 @@ arch:
 ports:
   "1880/tcp": 51881
 options:
-  MQTT_HOST: "<your ip server address"
-  MQTT_PORT: "51883"
+  MQTT_HOST: "9fdccc3d-qbmos"
+  MQTT_PORT: "1883"
   MQTT_USER: 
   MQTT_PASSWORD: 
 schema:
