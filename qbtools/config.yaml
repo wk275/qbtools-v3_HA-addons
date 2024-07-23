@@ -28,6 +28,4 @@ map:
     path: /HA_parms
 services:
   - 'mqtt:need'
-  - 'qbusmqtt:need'
-  - 'qbmos:need'
 legacy: true
