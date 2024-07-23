@@ -11,7 +11,7 @@ arch:
   - armhf
   - armv7
 ports:
-  "1880/tcp": 51880
+  "1880/tcp": 51881
 options:
   MQTT_HOST: "0.0.0.0"
   MQTT_PORT: "51883"
@@ -22,4 +22,8 @@ schema:
   MQTT_PORT: port?
   MQTT_USER: str?
   MQTT_PASSWORD: str?
+map:
+  - type: addon_config
+    read_only: False
+    path: /qbtools/HA_parms
 legacy: true
