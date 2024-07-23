@@ -11,8 +11,8 @@ arch:
   - armhf
   - armv7
 options:
-  MQTT_USER: "appmos"
-  MQTT_PASSWORD: "ncekoznczoZDIZOSJCé38901"
+  MQTT_USER: 
+  MQTT_PASSWORD:
 schema:
   MQTT_USER: str?
   MQTT_PASSWORD: str?

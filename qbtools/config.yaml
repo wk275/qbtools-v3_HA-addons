@@ -15,8 +15,8 @@ ports:
 options:
   MQTT_HOST: "0.0.0.0"
   MQTT_PORT: "51883"
-  MQTT_USER: "appmos"
-  MQTT_PASSWORD: "ncekoznczoZDIZOSJCé38901"
+  MQTT_USER: 
+  MQTT_PASSWORD: 
 schema:
   MQTT_HOST: str?
   MQTT_PORT: port?
