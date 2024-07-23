@@ -34,17 +34,7 @@ Don't forget to add the MQTT integration via settings>devices é services> add i
 
 ## HA_parms 
 HAparms can still be used. For this you first need to install a ssh addon.
-In the config just fill in your preferred password and don't forget to toggle the "show in sidebar".
-A click on terminal in the sidebar should bring you to the directory /root.
+
+After installation  a click on terminal in the sidebar should bring you to the directory /root.
 You'll find the HAparms_example.js file in directory "addon_configs/9fdccc3d_qbtools".
 Copy it to HAparms.js and modify it conform your needs. When saved it will modify the HA entities after a while. For details see log file in log tab of qbtools addon.
-
-[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https://github.com/hassio-addons/addon-ssh.git)
-
-
-
-
-
-
-</br>
-
