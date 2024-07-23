@@ -36,5 +36,5 @@ Don't forget to add the MQTT integration via settings>devices é services> add i
 HAparms can still be used. For this you first need to install a ssh addon. If you installed the "Advanced SSH & Web Terminal" addon don't forget to assign a password in the config tab before starting the addon.
 
 After installation  a click on terminal in the sidebar should bring you to the directory /root.
-You'll find the HAparms_example.js file in directory "addon_configs/9fdccc3d_qbtools".
+You'll find the HAparms_example.js file in directory "addon_configs/*_qbtools".
 Copy it to HAparms.js and modify it conform your needs. When saved it will modify the HA entities after a while. For details see log file in log tab of qbtools addon.
