@@ -27,6 +27,6 @@ map:
     read_only: False
     path: /HA_parms
 services:
-  qbmos:want
-  qbusmqtt:need
+  - qbmos:want
+  - qbusmqtt:need
 legacy: true

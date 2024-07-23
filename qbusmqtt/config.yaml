@@ -22,6 +22,6 @@ schema:
   MQTT_USER: str?
   MQTT_PASSWORD: str?
 services:
-  qbusmqtt:provide
-  qbmos:want
+  - qbusmqtt:provide
+  - qbmos:want
 legacy: true
