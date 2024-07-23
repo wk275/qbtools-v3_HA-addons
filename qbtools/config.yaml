@@ -1,7 +1,7 @@
 name: Qbtools
 url: "https://github.com/wk275/qbtools-v3_HA-addons/tree/main/qbtools"
 description: Qbtools server connects to qbmos server on default port 51883
-version: 3.1.1.2
+version: 3.1.2
 image: wk275/qbtools
 slug: qbtools
 init: false
@@ -22,8 +22,4 @@ schema:
   MQTT_PORT: port?
   MQTT_USER: str?
   MQTT_PASSWORD: str?
-map:
-  - type: data
-    read_only: False
-    path: /data
 legacy: true
