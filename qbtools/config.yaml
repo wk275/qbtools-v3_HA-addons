@@ -26,4 +26,8 @@ map:
   - type: addon_config
     read_only: False
     path: /HA_parms
+services:
+  - 'mqtt:need'
+  - 'qbusmqtt:need'
+  - 'qbmos:need'
 legacy: true
