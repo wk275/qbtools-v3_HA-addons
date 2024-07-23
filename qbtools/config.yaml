@@ -23,7 +23,7 @@ schema:
   MQTT_USER: str?
   MQTT_PASSWORD: str?
 map:
-  - type: addon_config
+  - type: data
     read_only: False
     path: /HA_parms
 legacy: true
