@@ -33,7 +33,7 @@ Installs Qbtools sofware. This will create the HA entities. Change the MQTT_USER
 Don't forget to add the MQTT integration via settings>devices é services> add integrtaion button>MQTT 
 
 ## HA_parms 
-HAparms can still be used. For this you first need to install a ssh addon.
+HAparms can still be used. For this you first need to install a ssh addon. If you installed the "Advanced SSH & Web Terminal" addon don't forget to assign a password in the config tab before starting the addon.
 
 After installation  a click on terminal in the sidebar should bring you to the directory /root.
 You'll find the HAparms_example.js file in directory "addon_configs/9fdccc3d_qbtools".
