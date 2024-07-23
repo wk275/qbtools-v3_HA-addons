@@ -29,6 +29,9 @@ Installs Qbtools sofware. This will create the HA entities. Change the MQTT_USER
 [![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https://github.com/wk275/qbtools-v3_HA-addons.git)
 
 
+## MQTT 
+Don't forget to add the MQTT integration via settings>devices é services> add integrtaion button>MQTT 
+
 ## HA_parms 
 HAparms can still be used. For this you first need to install a ssh addon.
 In the config just fill in your preferred password and don't forget to toggle the "show in sidebar".
