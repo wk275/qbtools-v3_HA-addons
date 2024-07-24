@@ -1,6 +1,6 @@
-name: Qbtools
+name: wk275/qbtools
 url: "https://github.com/wk275/qbtools-v3_HA-addons/tree/main/qbtools"
-description: Qbtools server connects to qbmos server on default port 51883
+description: "Qbtools server. Please enter your specific user and password in the configuration tab. Check the qbmos hostname!"
 version: 3.1.2
 image: wk275/qbtools
 slug: qbtools
@@ -12,8 +12,10 @@ arch:
   - armv7
 ports:
   "1880/tcp": 51881
+ports_description:
+  "1880/tcp": "51881/tcp => HTTP port for qbusGet & qbusSet"
 options:
-  MQTT_HOST: "9fdccc3d-qbmos"
+  MQTT_HOST: "9d6db495-qbmos"
   MQTT_PORT: "1883"
   MQTT_USER: 
   MQTT_PASSWORD: 
