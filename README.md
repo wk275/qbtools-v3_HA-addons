@@ -13,28 +13,46 @@
 ![](https://img.shields.io/badge/-Hassio-red)
 ![](https://img.shields.io/badge/-HA--Supervised-red)
 
-## [qbmos](https://github.com/wk275/qbtools-v3_HA-addons/tree/main/qbmos)
-
-Installs a mosquitto server for Qbtools on port 51883.
-Change MQTT_USER and MQTT_password to your own preferences in the config tab. These credentials should be copied to the add-ons qbtools and qbusmqtt if qbmos is used.
-
-If you want to use your own MQTT server do not istall this addon. In that case the MQTT_HOST, MQTT_PORT, MQTT_USER, MQTT_PASSWORD variables in both addons qbtools and qbusmqtt should be changed conform your setup.
-
-## [qbusmqtt](https://github.com/wk275/qbtools-v3_HA-addons/tree/main/qbusmqtt)
-Installs the QBUS MQTT gateway. Change the MQTT_USER and MQTT_PASSWORD variables in the config tab to the ones you used in the qbmos configuration. DO NOT CHANGE the MQTT_HOST and MQTT_PORT. The defaults should work. See tab log for details.
-
-## [qbtools](https://github.com/wk275/qbtools-v3_HA-addons/tree/main/qbtools)
-Installs Qbtools sofware. This will create the HA entities. Change the MQTT_USER and MQTT_PASSWORD variables in the config tab to the ones you used in the qbmos configuration. The MQTT_HOST name should be copied from the qbmos addon config page. Do not change the MQTT_PORT. The default should work. See tab log for details.
+# Installation:
+Install the 3 addons below. Preferred install priority is qbmos, qbtools, qbusmqtt.
 
 [![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https://github.com/wk275/qbtools-v3_HA-addons.git)
 
+## [qbmos](https://github.com/wk275/qbtools-v3_HA-addons/tree/main/qbmos)
+
+Installs a mosquitto server for Qbtools. Change MQTT_USER and MQTT_password to your own preference in the config tab. 
+
+#### After configuration and start of qbmos 
+#### Copy following variables to addons qbtools and qbusmqtt
+
+- the qbmos hostname -> MQTT_HOST variable
+![alt text](<Qbmos hostname.png>)
+- the credentials -> MQTT_USER and MQTT_PASSWORD
+
+If you want to use your own MQTT server, do not istall this addon. In that case  change the MQTT_HOST, MQTT_PORT, MQTT_USER, MQTT_PASSWORD variables in both addons qbtools and qbusmqtt conform your setup.
+
+## [qbtools](https://github.com/wk275/qbtools-v3_HA-addons/tree/main/qbtools)
+
+Installs Qbtools HA sofware. This addon will create HA entities.
+</br>Change the MQTT_HOST, MQTT_USER and MQTT_PASSWORD variables as described above.
+
+## [qbusmqtt](https://github.com/wk275/qbtools-v3_HA-addons/tree/main/qbusmqtt)
+
+Installs the QBUS MQTT gateway. 
+<br/>Change the MQTT_HOST, MQTT_USER and MQTT_PASSWORD variables as described above.
 
 ## MQTT 
-Don't forget to add the MQTT integration via settings>devices é services> add integrtaion button>MQTT 
+Don't forget to add the MQTT integration via 
+</br> settings > devices & services >  push "+ ADD INTEGRATION" button > type MQTT 
 
 ## HA_parms 
-HAparms can still be used. For this you first need to install a ssh addon. If you installed the "Advanced SSH & Web Terminal" addon don't forget to assign a password in the config tab before starting the addon.
+HAparms can still be used. For this you first need to install a ssh addon. 
+</br>If you installed the "Advanced SSH & Web Terminal" addon don't forget to assign a password in the config tab before starting the addon.
 
-After installation  a click on terminal in the sidebar should bring you to the directory /root.
-You'll find the HAparms_example.js file in directory "addon_configs/*_qbtools".
-Copy it to HAparms.js and modify it conform your needs. When saved it will modify the HA entities after a while. For details see log file in log tab of qbtools addon.
+After installation of the ssh addon, click on terminal in the sidebar. This should bring you to the linux directory /root.
+Here, you'll find the HAparms_example.js file in a directory "addon_configs/?_qbtools".
+Copy this example file to HAparms.js and modify it conform your needs. When saved it will modify the HA entities after a while. For details see log file in log tab of qbtools addon.
+
+# Remarks
+
+⚠️ wk275/qbtools, wk275/qbmos & wk275/qbusmqtt are not officially supported by Qbus.
