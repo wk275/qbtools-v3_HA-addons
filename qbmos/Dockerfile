@@ -1,1 +1,1 @@
-FROM wk275/qbmos:3.0
+FROM wk275/qbmos:latest

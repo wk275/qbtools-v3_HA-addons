@@ -1,1 +1,1 @@
-FROM wk275/qbusmqtt:3.1.1.2
+FROM wk275/qbusmqtt: latest

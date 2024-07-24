@@ -1,1 +1,1 @@
-FROM wk275/qbtools:3.1.2
+FROM wk275/qbtools:latest

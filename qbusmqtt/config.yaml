@@ -1,7 +1,7 @@
 name: wk275/qbusmqtt
 url: "https://github.com/wk275/qbtools-v3_HA-addons/tree/main/qbusmqtt"
 description: "Qbtools qbusmqtt gateway. Please enter your specific user and password in the configuration tab. Check the qbmos hostname!"
-version: 3.1.1.2
+version: latest
 image: wk275/qbusmqtt
 slug: qbusmqtt
 init: false
