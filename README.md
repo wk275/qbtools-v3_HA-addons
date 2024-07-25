@@ -45,6 +45,8 @@ Installs the QBUS MQTT gateway.
 Don't forget to add the MQTT integration via 
 </br> settings > devices & services >  push "+ ADD INTEGRATION" button > type MQTT 
 
+If you already installed and started the addons before you enabled the MQTT service, the status of your qbus outputs will not be updated/available. There is, to my knowledge no way to detect this situation. So in this case you need to restart qbtools, qbusmqtt or homeassistant. After a restart of one of these services, the status should become available.
+
 ## HA_parms 
 HAparms can still be used. For this you first need to install a ssh addon. 
 </br>If you installed the "Advanced SSH & Web Terminal" addon don't forget to assign a password in the config tab before starting the addon.
