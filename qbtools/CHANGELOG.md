@@ -1,3 +1,7 @@
+## 3.1.2.1 2024-07-26
+
+- added INFLUXDB2 variables to qbtools
+
 ## 3.1.2 - 2024-07-21
 
 - added support for qbtools addons for hassio, ha operating system and ha supervisor users
