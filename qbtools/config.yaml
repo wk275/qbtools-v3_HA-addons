@@ -19,7 +19,7 @@ options:
   MQTT_PORT: "1883"
   MQTT_USER: 
   MQTT_PASSWORD: 
-  INFLUXDB2_URL: "e.g. http://<influxdbV2 ip address>:<influxdbV2 port>"
+  INFLUXDB2_URL: "http://<influxdbV2 ip address>:<influxdbV2 port>"
   INFLUXDB2_ORG: 
   INFLUXDB2_BUCKET:
   INFLUXDB2_TOKEN: 
@@ -28,10 +28,10 @@ schema:
   MQTT_PORT: port?
   MQTT_USER: str?
   MQTT_PASSWORD: str?
-  INFLUXDB2_URL: str
-  INFLUXDB2_ORG: str 
-  INFLUXDB2_BUCKET: str
-  INFLUXDB2_TOKEN: str
+  INFLUXDB2_URL: str?
+  INFLUXDB2_ORG: str?
+  INFLUXDB2_BUCKET: str?
+  INFLUXDB2_TOKEN: str?
 map:
   - type: addon_config
     read_only: False
