@@ -20,9 +20,9 @@ options:
   MQTT_USER: 
   MQTT_PASSWORD: 
   INFLUXDB2_URL: "http://<influxdbV2 ip address>:<influxdbV2 port>"
-  INFLUXDB2_ORG: 
-  INFLUXDB2_BUCKET:
-  INFLUXDB2_TOKEN: 
+  INFLUXDB2_ORG: ""
+  INFLUXDB2_BUCKET: ""
+  INFLUXDB2_TOKEN: ""
 schema:
   MQTT_HOST: str?
   MQTT_PORT: port?
